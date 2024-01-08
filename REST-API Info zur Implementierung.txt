@@ -1,0 +1,35 @@
+Projekt WinCachebox rechte Maustaste hinzufügen/REST-API-Client
+Swagger-Url: https://api.groundspeak.com/api-docs/v1/swagger
+Client Namespace: GeocachingAPI
+
+Erzeugtes Verzeichnis <Namespace>Client
+
+Von der Url wird die Datei swagger.json heruntergeladen, aus der der Code generiert wird und im obigen Verzeichnis abgelegt.
+
+Der Clientcode wird generiert und dem Projekt "started" hinzugefügt.
+Clientcode für die REST-API mit den folgenden Parametern generieren:
+Name der REST-API: GeocachingAPIClient
+
+Achtung Ein bestehender name wird nie überschrieben: d.h. das entsprechende Verzeichnis vorher löschen (API v1.0, swagger.json manuell herunterladen, dann wird der Code mit dem Verzeichnis API v1.0 und entsrechenden Klassen/Methoden erstellt)
+
+, Basisnamespace: WinCacheBox, Metadatendateipfad: *\AppData\Local\Temp\WebToolsAutoRest\GeocachingAPIClient\201908061144316342\swagger.json
+
+Manuelle Anpassung der generierten Datei 
+Lists.cs Methode: GetZippedPocketQueryWithHttpMessagesAsync
+            // Deserialize Response
+            if ((int)_statusCode == 200)
+            {
+                byte[] _responseContentbytes = await _httpResponse.Content.ReadAsByteArrayAsync().ConfigureAwait(false);
+                try
+                {
+                    _result.Body = _responseContentbytes;
+                }
+wobei nachfolgende exception handling dann Quatsch ist,
+
+und der swagger.json
+        "produces": [
+          "application/x-www-form-urlencoded"
+		],
+in Lists_GetZippedPocketQuery		
+
+

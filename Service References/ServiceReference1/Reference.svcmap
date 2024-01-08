@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="3ffce15f-7631-4c0c-be5e-3b5d4bb97fff" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://api.groundspeak.com/LiveV6/geocaching.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="geocaching.xsd" MetadataType="Schema" ID="60a9673a-74f5-4dc9-8761-8496f4992611" SourceId="1" SourceUrl="https://api.groundspeak.com/LiveV6/geocaching.svc?xsd=xsd21" />
+    <MetadataFile FileName="geocaching1.xsd" MetadataType="Schema" ID="9a900b0c-36d1-46f0-8c8d-c93174000094" SourceId="1" SourceUrl="https://api.groundspeak.com/LiveV6/geocaching.svc?xsd=xsd20" />
+    <MetadataFile FileName="geocaching2.xsd" MetadataType="Schema" ID="24ed8bbf-1561-4754-b05c-4d85cfb64054" SourceId="1" SourceUrl="https://api.groundspeak.com/LiveV6/geocaching.svc?xsd=xsd23" />
+    <MetadataFile FileName="geocaching3.xsd" MetadataType="Schema" ID="ecb34aeb-f8d6-42ba-882f-f2bb0c43b073" SourceId="1" SourceUrl="https://api.groundspeak.com/LiveV6/geocaching.svc?xsd=xsd0" />
+    <MetadataFile FileName="geocaching4.xsd" MetadataType="Schema" ID="3644f791-c685-45aa-8d2b-28f08191dd0e" SourceId="1" SourceUrl="https://api.groundspeak.com/LiveV6/geocaching.svc?xsd=xsd4" />
+    <MetadataFile FileName="geocaching5.xsd" MetadataType="Schema" ID="f1db9b02-f8d8-4e34-92c1-ec7342545edb" SourceId="1" SourceUrl="https://api.groundspeak.com/LiveV6/geocaching.svc?xsd=xsd3" />
+    <MetadataFile FileName="geocaching6.xsd" MetadataType="Schema" ID="2a86553b-1bba-412a-953a-c835b9e8291f" SourceId="1" SourceUrl="https://api.groundspeak.com/LiveV6/geocaching.svc?xsd=xsd24" />
+    <MetadataFile FileName="geocaching7.xsd" MetadataType="Schema" ID="5f45bac7-2a5d-4b31-84dc-869b8938c4c9" SourceId="1" SourceUrl="https://api.groundspeak.com/LiveV6/geocaching.svc?xsd=xsd6" />
+    <MetadataFile FileName="geocaching8.xsd" MetadataType="Schema" ID="2010670a-e531-43d6-a41a-a852ac24d354" SourceId="1" SourceUrl="https://api.groundspeak.com/LiveV6/geocaching.svc?xsd=xsd9" />
+    <MetadataFile FileName="geocaching9.xsd" MetadataType="Schema" ID="d31707c6-241f-4c16-a532-285067920b69" SourceId="1" SourceUrl="https://api.groundspeak.com/LiveV6/geocaching.svc?xsd=xsd19" />
+    <MetadataFile FileName="geocaching10.xsd" MetadataType="Schema" ID="bacbeb4e-465c-468d-b9fa-dd23a7a7c768" SourceId="1" SourceUrl="https://api.groundspeak.com/LiveV6/geocaching.svc?xsd=xsd18" />
+    <MetadataFile FileName="geocaching.disco" MetadataType="Disco" ID="2c1d33d7-e05f-4893-8486-d0434f3fcde3" SourceId="1" SourceUrl="https://api.groundspeak.com/LiveV6/geocaching.svc?disco" />
+    <MetadataFile FileName="geocaching11.xsd" MetadataType="Schema" ID="bc6cc0fd-98e3-4991-b64b-0bdf87081fac" SourceId="1" SourceUrl="https://api.groundspeak.com/LiveV6/geocaching.svc?xsd=xsd1" />
+    <MetadataFile FileName="geocaching12.xsd" MetadataType="Schema" ID="bd77beb1-59da-4589-9942-8870509ebeec" SourceId="1" SourceUrl="https://api.groundspeak.com/LiveV6/geocaching.svc?xsd=xsd14" />
+    <MetadataFile FileName="geocaching13.xsd" MetadataType="Schema" ID="e9d29050-07fb-40c9-a26f-968161cb029f" SourceId="1" SourceUrl="https://api.groundspeak.com/LiveV6/geocaching.svc?xsd=xsd12" />
+    <MetadataFile FileName="Live.wsdl" MetadataType="Wsdl" ID="b43ae1dc-641c-49a4-a7b0-59122816ca69" SourceId="1" SourceUrl="https://api.groundspeak.com/LiveV6/geocaching.svc?wsdl" />
+    <MetadataFile FileName="geocaching14.xsd" MetadataType="Schema" ID="2a2abedc-bc52-4b4c-8f40-6be5c47101bb" SourceId="1" SourceUrl="https://api.groundspeak.com/LiveV6/geocaching.svc?xsd=xsd7" />
+    <MetadataFile FileName="geocaching15.xsd" MetadataType="Schema" ID="4bdc6fc0-8b1a-456c-afd5-d1c3f6743ac9" SourceId="1" SourceUrl="https://api.groundspeak.com/LiveV6/geocaching.svc?xsd=xsd16" />
+    <MetadataFile FileName="geocaching16.xsd" MetadataType="Schema" ID="4e71d5d8-7793-4c72-9465-b12f9e9e9097" SourceId="1" SourceUrl="https://api.groundspeak.com/LiveV6/geocaching.svc?xsd=xsd11" />
+    <MetadataFile FileName="geocaching17.xsd" MetadataType="Schema" ID="513f0dd6-aa0d-4b7d-b801-fe83c1d54507" SourceId="1" SourceUrl="https://api.groundspeak.com/LiveV6/geocaching.svc?xsd=xsd10" />
+    <MetadataFile FileName="geocaching18.xsd" MetadataType="Schema" ID="d562fb4b-e6f8-41f0-ae19-8faa94392505" SourceId="1" SourceUrl="https://api.groundspeak.com/LiveV6/geocaching.svc?xsd=xsd13" />
+    <MetadataFile FileName="geocaching19.xsd" MetadataType="Schema" ID="6640c78c-b62b-4199-b381-96811553ee13" SourceId="1" SourceUrl="https://api.groundspeak.com/LiveV6/geocaching.svc?xsd=xsd2" />
+    <MetadataFile FileName="geocaching20.xsd" MetadataType="Schema" ID="1cd963f7-9213-4e79-b6de-8cbb47c275f7" SourceId="1" SourceUrl="https://api.groundspeak.com/LiveV6/geocaching.svc?xsd=xsd15" />
+    <MetadataFile FileName="geocaching21.xsd" MetadataType="Schema" ID="20bd1aa4-41b6-4671-b17f-5cdc148df2a1" SourceId="1" SourceUrl="https://api.groundspeak.com/LiveV6/geocaching.svc?xsd=xsd22" />
+    <MetadataFile FileName="geocaching22.xsd" MetadataType="Schema" ID="1f0d9c0f-809a-4551-ab91-d98a144185f7" SourceId="1" SourceUrl="https://api.groundspeak.com/LiveV6/geocaching.svc?xsd=xsd17" />
+    <MetadataFile FileName="geocaching23.xsd" MetadataType="Schema" ID="e3f2f8e3-d1e1-4849-85bd-b42eab8901b1" SourceId="1" SourceUrl="https://api.groundspeak.com/LiveV6/geocaching.svc?xsd=xsd5" />
+    <MetadataFile FileName="geocaching24.xsd" MetadataType="Schema" ID="4895c105-c2f6-4161-a785-2910bedd28ea" SourceId="1" SourceUrl="https://api.groundspeak.com/LiveV6/geocaching.svc?xsd=xsd8" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,6 @@
+﻿namespace WinCachebox
+{
+    class FilterSettings
+  {
+  }
+}

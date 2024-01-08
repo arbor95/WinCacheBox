@@ -1,0 +1,505 @@
+﻿English
+// form1
+    openDBMenu = "&Change DB"
+    openDB = "Change DB"
+	Database Name = "Database Name"
+	Database Type = "Database Type"
+	Own Repository = "Own Repository"
+	f1 = CacheBox for Windows+
+	ownRepos = own Repository
+	f3 = &File
+	f4 = &View
+	database = Database
+	databases = Databases
+	f7 = &Help
+	f9 = &CacheWolf Import
+	batchExportImport = Batch Export/Import
+	userdata = UserData
+	f13 = E&xit
+	f14 = Map-Layer
+	f15 = Filter
+	f16 = Archive filtered Cache
+	f17 = Delete filtered Cache
+	f18 = Update Status filtered Cache
+	f19 = &Compact Database
+	f20 = &Repair Database
+	f23 = Reset Layout
+	f24 = &About WinCachebox
+	Location = Location
+	Locations = Locations
+	f26 = Act. center
+	f28 = Reset Filter
+	f29 = Redo Filter
+	// messageboxes
+	f29 =  Cache(s) changed successful!
+	f30 = Database folder [
+	f31 = ] could not be created!\n
+	f33 = Error
+	f34 = You are about to delete all caches which currently match your filter settings. Are you sure you want to proceed?
+	f35 = Delete caches
+	f36 = You are about to mark all caches which currently match your filter settings as 'archived'. Are you sure you want to proceed?
+	f37 = Mark caches
+	f38 = You are about to reset all 'listing changed' states. Are you sure you want to proceed?
+	Logs = Logs
+	overwriteDB = Overwrite the existing Database
+	mapview = Map View
+	wait = Please wait
+// Import
+	pqfromgc = Pocket Queries (gc.com)
+	preloadimages = Description Images (Filter Selection)
+	gpxfrommail = check Mails
+	gcvote = GcVote Cache Ratings (Filter Selection)
+	FirstImported = First Import
+	LastImported = Last Import
+// CacheInfoView
+	civ0 = No cache choosen
+	civ1 = Please choose a geocache in the list on the left
+	difficulty = Difficulty
+	terrain = Terrrain
+	size = Size
+	rating = Rating
+	civ5 = (unknown)
+	civ7 = Unknown
+	civ8 = Micro
+	civ9 = Small
+	civ10 = Regular
+	civ11 = Large
+	civ12 = by+
+// SDFBatchExport
+	mapPack = MapPack
+	path = Path
+// SDFExportSettings
+	changes = There are made changes in the destination database
+	synchron = which are not synchronized with WinCachebox. Do you want to Synchronize before export?
+	synchronize = Synchronize
+// Filter
+	name = Name
+	general = General
+	d/t = D / T
+	cachetype = Cache Type
+	attributes = Attributes
+	country/state = Country / State
+	presets = Presets
+	quick = quick
+	changed = changed
+	listing = listing
+	reset = reset
+	searchable = searchable
+	highlights = Highlights
+	archivable = archivable
+	droppable = droppable
+	contains = contains
+	travelbugs = travelbugs
+	disabled = disabled
+	archived = archived
+	myfinds = my finds
+	own = own
+	not = not
+	manual = manual
+	country = country
+	state = state
+	empty = empty
+	cachename = Cache-Name
+	gpxfilename = GPX-Filenames
+	gpxolderthan = GPX older than (days)
+	subcategories = Subcategories (Import date)
+	categories = categories
+	at1 = Dogs
+	at2 = Access or parking fee
+	at3 = Climbing gear
+	at4 = Boat
+	at5 = Scuba gear
+	at6 = Recommended for kids
+	at7 = Takes less than an hour
+	at8 = Scenic view
+	at9 = Significant hike
+	at10 = Difficult climbing
+	at11 = May require wading
+	at12 = May require swimming
+	at13 = Available at all times
+	at14 = Recommended at night
+	at15 = Available during winter
+	at16 = Kaktus
+	at17 = Poison plants
+	at18 = Dangerous Animals
+	at19 = Ticks
+	at20 = Abandoned mines
+	at21 = Cliff / falling rocks
+	at22 = Hunting
+	at23 = Dangerous Area
+	at24 = Wheelchair accessible
+	at25 = Parking available
+	at26 = Public transportation
+	at27 = Drinking water nearby
+	at28 = Public restrooms nearby
+	at29 = Telephone nearby
+	at30 = Picnic tables nearby
+	at31 = Camping available
+	at32 = Bicycles
+	at33 = Motorcycles
+	at34 = Quads
+	at35 = Off-road vehicles
+	at36 = Snowmobiles
+	at37 = Horses
+	at38 = Campfires
+	at39 = Thorns
+	at40 = Stealth required
+	at41 = Stroller accessible
+	at42 = Needs maintenance
+	at43 = Watch for livestock
+	at44 = Flashlight required
+	at45 = Lost & Found
+	at46 = Truck Driver/RV
+	at47 = Field Puzzle
+	at48 = UV Light Required
+	at49 = Snowshoes
+	at50 = Cross Country Skis
+	at51 = Special Tool Required
+	at52 = Night Cache
+	at53 = Park and Grab
+	at54 = Abandoned Structure
+	at55 = Short hike (less than 1km)
+	at56 = Medium hike (1km-10km)
+	at57 = Long Hike (+10km)
+	at58 = Fuel Nearby
+	at59 = Food Nearby
+	at60 = Wireless Beacon
+	at61 = Partnership Cache
+	at62 = Seasonal Access
+	at63 = Tourist Friendly
+	at64 = Tree Climbing
+	at65 = Front_Yard
+	at66 = Teamwork_Required
+// HintView
+	decode = &Decode
+// 	Settings
+	Images = Images
+	gcUsername = GC Username
+	GetAPIKey = Get API Key
+	GcVotePassword = GcVote Password
+	SelectLanguage = Select Language:
+	MapDetailLevels = Map Detail Levels
+	Layers = Layers
+	Area = Area
+	dpiRendering = DPI-aware rendering
+	ShowCross = Show cross when zoom level >
+	SpoilerTags = Spoiler Tags to Load (split with ;)
+	SpoilerMax = Spoiler Export Max Size (px)
+	ImagesMax = Images Export Max Size (px)
+	SpoilerRotate = Spoiler Export Rotate?
+	DeleteLogs = Delete Logs
+	KeepLogs = but keep at least
+	immediately = immediately
+	1month = after 1 month
+	2months = after 2 months
+	3months = after 3 months
+	4months = after 4 months
+	5months = after 5 months
+	6months = after 6 months
+	0logs = 0 logs
+	5logs = 5 logs
+	10logs = 10 logs
+	15logs = 15 logs
+	20logs = 20 logs
+	25logs = 25 logs
+		
+	//MapLayer
+	Mapnik = Mapnik
+	OpenTopoMap = OpenTopoMap
+	CycleMap = CycleMap
+	MapQuest = MapQuest
+
+// Main Menu
+	Misc = Misc
+	Find = Find
+	Nav = Nav
+	Cache = Cache
+	DB = DB
+	Description = Description
+	MakeSelection = Make Selection
+	Waypoints = Waypoints
+	Notes = Notes
+	Solver = Solver
+	Favorite = Favorite
+	Map = Map
+	maps = Maps
+	Compass = Compass
+	Radar = Radar
+	Tracks = Tracks
+	ShowLogs = Show Logs
+	MyFieldNotes = My Field Notes
+	hint = Hint
+	spoiler = Spoiler
+	about = About cachebox!
+	settings = Settings
+	tools = Tools
+	import = Import
+	quit = Quit / Hide
+	found = Found!
+	DNF = Did not find!
+	maintenance = Needs Maintenance
+	AddNote = Add Note
+	ClearCurrentFieldNote = Clear current field note
+	ShowRecentNotes = Show Recent Notes
+	cacheList = List
+	filter = Filter
+	search = Search
+	ResortList = Resort List
+	AutoResort = Auto Resort
+	record = Record
+	pause = Pause
+	stop = Stop
+	export = Export
+	TrackRec = Track Recorder
+	VoiceRec = Voice Recorder
+	createPQ = Create Pocket Query
+	uploadFieldNotes = Upload Fieldnotes
+	TomTom = TomTom
+	GPX = GPX
+	GoogleMap = Google Map
+	TakePhoto = Take Photo
+	RecVideo = Record Video
+	ChkUpdate = Check for Updates
+	manage = Manage
+	notValid = not valid
+	Set/UnSetFavorite = Set/Unset Favorite
+// AboutViewPanel
+	caches_found = Caches Found:
+	gps = GPS:
+	not_active = not active
+	not_detected = not detected
+	sats_nr = Sats:
+	Hdop = Hdop:
+	alt = Alt:
+	waiting_for_fix = Waiting for fix
+	not_responding = not responding
+	waypoint = Waypoint:
+	coordinate = Coordinate
+	current = Current:
+
+// MsgBox texts
+	Error = Error
+	Warning = Warning!
+	thisNotWork = This does not work!
+
+	Open_getcachebox_Link = Open www.getcachebox.net in browser
+	allowInetConn = Internet connection disabled! You you want to open this link anyway?
+
+	Open_Cache_Link = Open cache in browser
+	Cann_not_open_cache_browser = Cannot open cache in browser
+
+	CanntProcessUpdateFiles = Cannot process updated files!
+	ErrDbStartup = Error during database startup!
+	CanntCreateProxy = Cannot create Proxy!
+
+	Quit? = Quit cachebox?
+	QuitReally = Do you really want to close cachebox?
+
+	uploadFieldNotes? = Upload Fieldnotes to geocaching.com? This might imply costs!
+	NoFindsLogged = You do not have any finds logged with Cachebox!
+
+	CreatePQ? = Create Pocket Query @ geocaching.com? This might imply costs!
+
+	CanntOpenRecentNotes = Cannot open recent notes in Browser
+
+	ShowSpoiler = Show Spoiler
+	spoilSearch = Really spoil search?
+
+	ErrStartExternViewer = While starting external viewer
+
+	downloadSpoiler = Download Spoiler
+	downloadSpoiler? = Really download spoiler?
+	NoSpoiler = No Spoilers available.
+	NoCacheSelect = No cache selected.
+	NoAccessAllowed = Internet access not allowed! Enable it in the settings to download spoilers.
+
+	ErrNoCam = An error occured! Seems as if your device had no camera!
+
+	AppUpdate = Update Application
+	AccessUpdate? = Access Internet to check for updates now?
+
+	ErrLanchUpdater = Launching updater failed!
+
+	upToDate = The installed version is up to date!
+
+	ErrChkUpdate = Checking for updates failed...
+
+
+
+// Splash screan Messages
+	openDB = Opening Database...
+	IniUI = Initializing User Interface...
+	LoadMapPack = Loading Map Packs...
+	LoadCaches = Loading Caches...
+
+
+// Forms
+
+	// general
+		cancel = Cancel
+		confirm = Confirm
+		ok = Ok
+		edit = Edit
+		new = New
+		update = Update
+		all = all
+		km = km
+		no = No
+		yes = Yes
+		from = von
+		selection = Selection
+		max = Max.+
+		min = Min.+
+		logs = logs
+		exported = exported
+		for = for
+		file = file
+		of = of
+		notexists = does not exist
+		after = after
+		Distance = Distance
+		category = category
+		GcCode = GC Code
+		center = center
+		remove = remove
+		set = set
+		saveAs+ = Save as+
+		Clipboard = Clipboard
+		copy+ = copy+
+		Parse = Parse
+		E = E
+		W = W
+		N = N
+		S = S
+		deg = Deg.
+		degmin = Deg. Min.
+		degminsec = Deg. Min. Sec.
+		UTM = UTM
+	// FormSelectDB
+		NewDB = New DB
+		SelDB = Select Database
+
+	// DatabaseChangedForm
+		DatabaseChangedForm.Text = Database Scheme Changed
+		DatabaseChangedForm.Msg = Congratulations for updating your Cachebox! The database layout changed and needs to be updated. Doing so will slow down the import considerably, so setting up a new one is strongly recommended.
+		deleteDB = Delete DB
+		convert = Convert
+
+	// FormNewDB
+		InsNewDBName = Insert New DB name
+
+	// FormCreatePocketQuery
+		connecting = Connecting...
+		createPQ = Create Pocket Query
+		ErrCreatePQ =  Error while trying to create a pocket query!
+		ErrLogInCreatePq = Login Error while trying to create a pocket query! Wrong login information?
+		ServerTimeout = Server Timeout...
+		NetConnectProb = Network connecting problems!
+		NoGCpassword = You didn't specify your GC password!
+
+	// FormDownloadCacheImage
+		LowMemOperationCancel = Device is running low on memory! This operation will now cancel!
+		ImportImage = Importing Images
+
+	//WaypointViewPanel
+		Projection = Projection
+		EnterMan = Enter Manually
+		FromGps = From GPS
+		details = Details
+		delete = Delete
+		DecDeg = Decimal Degrees
+		DegMin = Deg, Min
+		DegMinSec = Deg, Min, Sec
+		utm = UTM
+		addWaypoint = add Waypoint
+		?replaceCoord = Do you really want to replace coordinates?
+		!replaceCoord = Replace Coordinates
+		!DelWP = Delete Waypoint
+		?DelWP = Do you really want to delete this waypoint?
+
+	//SolverViewPanel
+		Solve = Solve
+		Funct. = Funct.
+		Select. = Select.
+		Keyb. = Keyb.
+		PasteClip = Paste Clipboard
+		AsCenter = As Center
+		AddWaypoint = Add Waypoint
+
+	//GetSolverFunction
+		getSolverFunction = Insert Solver Function
+		groups = Groups
+		functions = Functions
+		otherNames = Other Names
+
+	//Solver
+		solverGroupText = Text
+		solverGroupNumbers = Numbers
+		solverGroupCoordinates = Coordinates
+		solverErrParamCount = Diese Funktion benötigt %s Parameter
+
+	//Solver Functions
+		solverFuncAlphaSum = AlphaSum
+		solverDescAlphaSum = Sum of all positions of all characters in the Alphabet
+		solverFuncAlphaPos = AlphaPos
+		solverDescAlphaPos = Position of the first Character in the Alpahbet
+		solverFuncPhoneCode = PhoneCode
+		solverDescPhoneCode = Position of the first character on the phone keyboard
+		solverFuncPhoneSum = PhoneSum
+		solverDescPhoneSum = Sum of all position of all characters on the phone keyboard
+		solverFuncLength = Length
+		solverDescLength = Numbers of characters in the string
+		solverFuncCrosstotal = Crosstotal
+		solverDescCrosstotal = Sum of all single numbers in the number. \nExample: CT(123456) = 21
+		solverFuncICrosstotal = ICrosstotal
+		solverDescICrosstotal = Iterated Crosstotal until result has only 1 digit. \nExample: ICT(123456) = 3
+		solverFuncCrossproduct = Crossproduct
+		solverDescCrossprocuct = Product of all single numbers in the number. \nExample: CP(1234) = 24
+		solverFuncICrossproduct = ICrossproduct
+		solverDescICrossproduct = Iterated Crosstotal until result has only 1 digit. \nExample: ICP(1234) = 8
+		solverFuncRom2Dec = Rom2Dec
+		solverDescRom2Dec = Roman numerals to decimal
+		solverFuncPrimenumber = Primenumber
+		solverDescPrimenumber = Primenumber(x) Gives the x-th prime number. \nExample: Primenumber(5) = 11
+		solverFuncPrimeIndex = PrimeIndex
+		solverDescPrimeIndex = PrimeIndex(y) Gives the index of the prime number y. \nExample: PrimeIndex(11) = 5
+		solverFuncProjection = Projection
+		solverDescProjection = Projection of Coordinate. \nProjection(coord; length; angle)
+		solverFuncIntersection = Intersection
+		solverDescIntersection = Intersection of 2 Lines (coord1-coord2) with (coord3-coord4). \nIntersection(coord1; coord2; coord3; coord4)
+		solverFuncCrossbearing = Crossbearing
+		solverDescCrossbearing = Crossbearing between 2 points and 2 directions \nCrossbearing(coord1; angle1; coord2; angle2)
+		solverFuncBearing = Bearing
+		solverDescBearing = Gives the bearing from coord1 to coord2 \nBearing(coord1; coord2)
+		solverFuncDistance = Distance
+		solverDescDistance = Gives the distance between coord1 and coord2 in Meter \nDistance(coord1; coord2)
+		solverFuncInt = Int
+		solverDescInt = Gives the number before the Komma \nInt(-5.8) = 5
+		solverFuncRound = Round
+		solverDescRound = Rounds the number to x digits \nRound(1.8672; 2) = 1.87
+		solverFuncPi = Pi
+		solverDescPi = Gives the number Pi \nPi() = 3.14159265358979
+		solverFuncReverse = Reverse
+		solverDescReverse = Reverses the string \nReverse("ABC") = CBA
+		solverFuncRot13 = Rot13
+		solverDescRot13 = Gives the Rot13 encryption \nRot13("ABC") = NOP
+		solverFuncMid = Mid
+		solverDescMid = Return a substring of a string. Parameter 3: Default=1 \nMid("String";StartPosition;[CharacterCount])
+
+	//CacheWolf
+		c0 = importing CacheWolf
+		c1 = profile (category) select:+
+		c2 = import
+        c5 = change
+		c6 = _ all profiles (categories)
+		c7 = category:+
+		c8 = (New)
+		c9 = importing caches
+		c10 = new:+
+		c11 = changed:+
+		c12 = done
+		c13 = data directory:+
+		c14 = reading waypoints
+		c15 = linking waypoints
+		c16 = non-updated caches remove
+		c17 = error:+

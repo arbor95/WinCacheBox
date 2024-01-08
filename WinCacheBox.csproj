@@ -1,0 +1,1992 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A1F2BAE7-7770-45E5-8534-EB3E2F876C39}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WinCachebox</RootNamespace>
+    <AssemblyName>WinCachebox</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>J:\GeoCaching\WinCachebox\publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon1.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\WinCachebox.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\WinCachebox.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Rest.ClientRuntime, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Rest.ClientRuntime.2.3.20\lib\net461\Microsoft.Rest.ClientRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.83.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Libs\SQLite\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.1.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Runtime" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WeifenLuo.WinFormsUI.Docking, Version=2.5.0.20832, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Libs\WinFormUI\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="API v1.0\APIv10.cs" />
+    <Compile Include="API v1.0\Friends.cs" />
+    <Compile Include="API v1.0\FriendsExtensions.cs" />
+    <Compile Include="API v1.0\GeocacheLogs.cs" />
+    <Compile Include="API v1.0\GeocacheLogsExtensions.cs" />
+    <Compile Include="API v1.0\GeocacheNotes.cs" />
+    <Compile Include="API v1.0\GeocacheNotesExtensions.cs" />
+    <Compile Include="API v1.0\Geocaches.cs" />
+    <Compile Include="API v1.0\GeocachesExtensions.cs" />
+    <Compile Include="API v1.0\GeoTours.cs" />
+    <Compile Include="API v1.0\GeoToursExtensions.cs" />
+    <Compile Include="API v1.0\HQPromotions.cs" />
+    <Compile Include="API v1.0\HQPromotionsExtensions.cs" />
+    <Compile Include="API v1.0\IAPIv10.cs" />
+    <Compile Include="API v1.0\IFriends.cs" />
+    <Compile Include="API v1.0\IGeocacheLogs.cs" />
+    <Compile Include="API v1.0\IGeocacheNotes.cs" />
+    <Compile Include="API v1.0\IGeocaches.cs" />
+    <Compile Include="API v1.0\IGeoTours.cs" />
+    <Compile Include="API v1.0\IHQPromotions.cs" />
+    <Compile Include="API v1.0\ILists.cs" />
+    <Compile Include="API v1.0\ILogDrafts.cs" />
+    <Compile Include="API v1.0\IReferenceData.cs" />
+    <Compile Include="API v1.0\IStatus.cs" />
+    <Compile Include="API v1.0\ITrackableLogs.cs" />
+    <Compile Include="API v1.0\ITrackables.cs" />
+    <Compile Include="API v1.0\IUsers.cs" />
+    <Compile Include="API v1.0\IUserWaypoints.cs" />
+    <Compile Include="API v1.0\IUtilities.cs" />
+    <Compile Include="API v1.0\Lists.cs" />
+    <Compile Include="API v1.0\ListsExtensions.cs" />
+    <Compile Include="API v1.0\LogDrafts.cs" />
+    <Compile Include="API v1.0\LogDraftsExtensions.cs" />
+    <Compile Include="API v1.0\Models\AdditionalWaypoint.cs" />
+    <Compile Include="API v1.0\Models\Attribute.cs" />
+    <Compile Include="API v1.0\Models\AttributeType.cs" />
+    <Compile Include="API v1.0\Models\BulkFailure.cs" />
+    <Compile Include="API v1.0\Models\BulkResponse.cs" />
+    <Compile Include="API v1.0\Models\Coordinates.cs" />
+    <Compile Include="API v1.0\Models\Country.cs" />
+    <Compile Include="API v1.0\Models\FriendRequest.cs" />
+    <Compile Include="API v1.0\Models\Geocache.cs" />
+    <Compile Include="API v1.0\Models\GeocacheCount.cs" />
+    <Compile Include="API v1.0\Models\GeocacheLimit.cs" />
+    <Compile Include="API v1.0\Models\GeocacheList.cs" />
+    <Compile Include="API v1.0\Models\GeocacheLog.cs" />
+    <Compile Include="API v1.0\Models\GeocacheLogType.cs" />
+    <Compile Include="API v1.0\Models\GeocacheNote.cs" />
+    <Compile Include="API v1.0\Models\GeocacheSize.cs" />
+    <Compile Include="API v1.0\Models\GeocacheType.cs" />
+    <Compile Include="API v1.0\Models\GeoTour.cs" />
+    <Compile Include="API v1.0\Models\HQPromotionMetadata.cs" />
+    <Compile Include="API v1.0\Models\Image.cs" />
+    <Compile Include="API v1.0\Models\ListGeocache.cs" />
+    <Compile Include="API v1.0\Models\Location.cs" />
+    <Compile Include="API v1.0\Models\LogDraft.cs" />
+    <Compile Include="API v1.0\Models\MembershipLevel.cs" />
+    <Compile Include="API v1.0\Models\PostGeocacheList.cs" />
+    <Compile Include="API v1.0\Models\PostGeocacheLog.cs" />
+    <Compile Include="API v1.0\Models\PostImage.cs" />
+    <Compile Include="API v1.0\Models\PostListGeocache.cs" />
+    <Compile Include="API v1.0\Models\PostLogDraft.cs" />
+    <Compile Include="API v1.0\Models\PostTrackableLog.cs" />
+    <Compile Include="API v1.0\Models\PostUserWaypoint.cs" />
+    <Compile Include="API v1.0\Models\PromotedDraft.cs" />
+    <Compile Include="API v1.0\Models\Souvenir.cs" />
+    <Compile Include="API v1.0\Models\Sponsor.cs" />
+    <Compile Include="API v1.0\Models\State.cs" />
+    <Compile Include="API v1.0\Models\Trackable.cs" />
+    <Compile Include="API v1.0\Models\TrackableCount.cs" />
+    <Compile Include="API v1.0\Models\TrackableLog.cs" />
+    <Compile Include="API v1.0\Models\TrackableLogType.cs" />
+    <Compile Include="API v1.0\Models\TrackableType.cs" />
+    <Compile Include="API v1.0\Models\User.cs" />
+    <Compile Include="API v1.0\Models\UserData.cs" />
+    <Compile Include="API v1.0\Models\UserReference.cs" />
+    <Compile Include="API v1.0\Models\UserWaypoint.cs" />
+    <Compile Include="API v1.0\ReferenceData.cs" />
+    <Compile Include="API v1.0\ReferenceDataExtensions.cs" />
+    <Compile Include="API v1.0\Status.cs" />
+    <Compile Include="API v1.0\StatusExtensions.cs" />
+    <Compile Include="API v1.0\TrackableLogs.cs" />
+    <Compile Include="API v1.0\TrackableLogsExtensions.cs" />
+    <Compile Include="API v1.0\Trackables.cs" />
+    <Compile Include="API v1.0\TrackablesExtensions.cs" />
+    <Compile Include="API v1.0\Users.cs" />
+    <Compile Include="API v1.0\UsersExtensions.cs" />
+    <Compile Include="API v1.0\UserWaypoints.cs" />
+    <Compile Include="API v1.0\UserWaypointsExtensions.cs" />
+    <Compile Include="API v1.0\Utilities.cs" />
+    <Compile Include="API v1.0\UtilitiesExtensions.cs" />
+    <Compile Include="Api\GCApi.cs" />
+    <Compile Include="Api\GetAccessToken.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Api\GetAccessToken.Designer.cs">
+      <DependentUpon>GetAccessToken.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Api\GetCacheStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Api\GetCacheStatus.Designer.cs">
+      <DependentUpon>GetCacheStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CacheWolf\CacheWolfImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CacheWolf\CacheWolfImport.Designer.cs">
+      <DependentUpon>CacheWolfImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Components\CoordCacheWaypoint.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Components\CoordCacheWaypoint.Designer.cs">
+      <DependentUpon>CoordCacheWaypoint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cookiemanager.cs" />
+    <Compile Include="Coordinate.cs" />
+    <Compile Include="Datum.cs" />
+    <Compile Include="Geocaching\GpxFilenames.cs" />
+    <Compile Include="Geocaching\Location.cs" />
+    <Compile Include="Map\TileImport.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Replication\ChangeTypeEnum.cs" />
+    <Compile Include="Replication\Replication.cs" />
+    <Compile Include="Replication\ReplicationConflictForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Replication\ReplicationConflictForm.Designer.cs">
+      <DependentUpon>ReplicationConflictForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SdfExport\SDFBatchExport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SdfExport\SDFBatchExport.Designer.cs">
+      <DependentUpon>SDFBatchExport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SdfExport\SdfExport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SdfExport\SdfExport.designer.cs">
+      <DependentUpon>SdfExport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SdfExport\SdfExportSetting.cs" />
+    <Compile Include="SdfExport\SdfExportSettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SdfExport\SdfExportSettingsForm.Designer.cs">
+      <DependentUpon>SdfExportSettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Solver\AuflistungEntity.cs" />
+    <Compile Include="Solver\ConstantEntity.cs" />
+    <Compile Include="Solver\CoordinateEntity.cs" />
+    <Compile Include="Solver\Functions.cs" />
+    <Compile Include="Solver\GetSolverFunction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Solver\GetSolverFunction.Designer.cs">
+      <DependentUpon>GetSolverFunction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Solver\ParameterEntity.cs" />
+    <Compile Include="Solver\ZuweisungEntity.cs" />
+    <Compile Include="Solver\StringEntity.cs" />
+    <Compile Include="Solver\Entity.cs" />
+    <Compile Include="Solver\FunctionEntity.cs" />
+    <Compile Include="Solver\OperatorEntity.cs" />
+    <Compile Include="Solver\Solver.cs" />
+    <Compile Include="Solver\TempEntity.cs" />
+    <Compile Include="Solver\VariableEntity.cs" />
+    <Compile Include="TranslationEngine\LangString.cs" />
+    <Compile Include="Types\Attributes.cs" />
+    <Compile Include="Types\DLong.cs" />
+    <Compile Include="UTM\Convert.cs" />
+    <Compile Include="Views\Filter\FilterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Filter\FilterForm.Designer.cs">
+      <DependentUpon>FilterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Filter\FilterPresets.cs" />
+    <Compile Include="Views\Filter\FilterProperties.cs" />
+    <Compile Include="Filter\FilterSettings.cs" />
+    <Compile Include="FormDownloadPocketQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDownloadPocketQuery.Designer.cs">
+      <DependentUpon>FormDownloadPocketQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormImportPocketQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormImportPocketQuery.Designer.cs">
+      <DependentUpon>FormImportPocketQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GcVote\GcVote.cs" />
+    <Compile Include="Geocaching\BoundingBox.cs" />
+    <Compile Include="Geocaching\Cache.cs" />
+    <Compile Include="Config.cs" />
+    <Compile Include="Database.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Geocaching\DescriptionImageGrabber.cs" />
+    <Compile Include="Geocaching\GpxImport.cs" />
+    <Compile Include="Geocaching\Groundspeak.cs" />
+    <Compile Include="Geocaching\Layer.cs" />
+    <Compile Include="Geocaching\LogEntry.cs" />
+    <Compile Include="Geocaching\Waypoint.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="HtmlEntities.cs" />
+    <Compile Include="HtmlTools.cs" />
+    <Compile Include="HttpUtility.cs" />
+    <Compile Include="IFormProgressReport.cs" />
+    <Compile Include="ImportSettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportSettingsForm.Designer.cs">
+      <DependentUpon>ImportSettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Libs\SharpZipLib\Checksums\Adler32.cs" />
+    <Compile Include="Libs\SharpZipLib\Checksums\CRC32.cs" />
+    <Compile Include="Libs\SharpZipLib\Checksums\IChecksum.cs" />
+    <Compile Include="Libs\SharpZipLib\Checksums\StrangeCRC.cs" />
+    <Compile Include="Libs\SharpZipLib\Compression\Deflater.cs" />
+    <Compile Include="Libs\SharpZipLib\Compression\DeflaterConstants.cs" />
+    <Compile Include="Libs\SharpZipLib\Compression\DeflaterEngine.cs" />
+    <Compile Include="Libs\SharpZipLib\Compression\DeflaterHuffman.cs" />
+    <Compile Include="Libs\SharpZipLib\Compression\DeflaterPending.cs" />
+    <Compile Include="Libs\SharpZipLib\Compression\Inflater.cs" />
+    <Compile Include="Libs\SharpZipLib\Compression\InflaterDynHeader.cs" />
+    <Compile Include="Libs\SharpZipLib\Compression\InflaterHuffmanTree.cs" />
+    <Compile Include="Libs\SharpZipLib\Compression\PendingBuffer.cs" />
+    <Compile Include="Libs\SharpZipLib\Compression\Streams\DeflaterOutputStream.cs" />
+    <Compile Include="Libs\SharpZipLib\Compression\Streams\InflaterInputStream.cs" />
+    <Compile Include="Libs\SharpZipLib\Compression\Streams\OutputWindow.cs" />
+    <Compile Include="Libs\SharpZipLib\Compression\Streams\StreamManipulator.cs" />
+    <Compile Include="Libs\SharpZipLib\Core\FileSystemScanner.cs" />
+    <Compile Include="Libs\SharpZipLib\Core\INameTransform.cs" />
+    <Compile Include="Libs\SharpZipLib\Core\IScanFilter.cs" />
+    <Compile Include="Libs\SharpZipLib\Core\NameFilter.cs" />
+    <Compile Include="Libs\SharpZipLib\Core\PathFilter.cs" />
+    <Compile Include="Libs\SharpZipLib\Core\StreamUtils.cs" />
+    <Compile Include="Libs\SharpZipLib\Core\WindowsPathUtils.cs" />
+    <Compile Include="Libs\SharpZipLib\Encryption\PkzipClassic.cs" />
+    <Compile Include="Libs\SharpZipLib\FastZip.cs" />
+    <Compile Include="Libs\SharpZipLib\IEntryFactory.cs" />
+    <Compile Include="Libs\SharpZipLib\SharpZipBaseException.cs" />
+    <Compile Include="Libs\SharpZipLib\WindowsNameTransform.cs" />
+    <Compile Include="Libs\SharpZipLib\ZipConstants.cs" />
+    <Compile Include="Libs\SharpZipLib\ZipEntry.cs" />
+    <Compile Include="Libs\SharpZipLib\ZipEntryFactory.cs" />
+    <Compile Include="Libs\SharpZipLib\ZipException.cs" />
+    <Compile Include="Libs\SharpZipLib\ZipExtraData.cs" />
+    <Compile Include="Libs\SharpZipLib\ZipFile.cs" />
+    <Compile Include="Libs\SharpZipLib\ZipHelperStream.cs" />
+    <Compile Include="Libs\SharpZipLib\ZipInputStream.cs" />
+    <Compile Include="Libs\SharpZipLib\ZipNameTransform.cs" />
+    <Compile Include="Libs\SharpZipLib\ZipOutputStream.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\ComponentModel\BoundDataView.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\ComponentModel\BoundList.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\ComponentModel\BoundListBase.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\ComponentModel\IBoundList.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\AnchorArea.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\BorderLine.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\BrushsCache.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\EditablePanel.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\EditablePanelBase.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\EditablePanelThemed.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\Enums.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\GraphicsCache.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\IBorder.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\MeasureHelper.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\Padding.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\PensCache.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\RectangleBorder.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\RoundedRectangle.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\Utilities.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\VisualElements\BackgroundBase.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\VisualElements\BackgroundBorder.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\VisualElements\BackgroundBorderBase.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\VisualElements\BackgroundLinearGradient.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\VisualElements\BackgroundSolid.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\VisualElements\Button.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\VisualElements\ButtonBase.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\VisualElements\ButtonThemed.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\VisualElements\CheckBox.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\VisualElements\CheckBoxBase.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\VisualElements\CheckBoxThemed.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\VisualElements\ColumnHeader.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\VisualElements\ColumnHeaderBase.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\VisualElements\ColumnHeaderThemed.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\VisualElements\Container.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\VisualElements\ContainerBase.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\VisualElements\DropDownButton.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\VisualElements\DropDownButtonBase.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\VisualElements\DropDownButtonThemed.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\VisualElements\Header.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\VisualElements\HeaderBase.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\VisualElements\HeaderThemed.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\VisualElements\Icon.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\VisualElements\Image.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\VisualElements\RichText.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\VisualElements\RichTextGDI.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\VisualElements\RowHeader.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\VisualElements\RowHeaderBase.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\VisualElements\RowHeaderThemed.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\VisualElements\SortIndicator.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\VisualElements\SortIndicatorThemed.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\VisualElements\Text.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\VisualElements\TextGDI.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\VisualElements\TextRenderer.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\VisualElements\VisualElementBase.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\VisualElements\VisualElementList.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\ButtonMultiSelection.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\ColorPicker.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\CommonImages.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\ControlCursor.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\DevAgeComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\DevAgeMaskedTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\DevAgeNumericUpDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\DevAgeRichTextBox.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\DevAgeTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\DevAgeTextBoxButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\DropDown.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\DropDownButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\EditableControlBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\ErrorDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\ErrorDialogDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\FormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\FormSingleton.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\HeaderGroupBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\ImageNavigator.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\Line.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\LinkLabel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\PositionRecorder.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\SendCharExact.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\TextBoxUITypeEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\Utilities.cs" />
+    <Compile Include="Libs\SourceGrid\DevAge.Windows.Forms\Properties\Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\Collections\ListByType.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\ComponentModel\ComponentLight.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\ComponentModel\Converter\CurrencyTypeConverter.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\ComponentModel\Converter\DateTimeTypeConverter.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\ComponentModel\Converter\NumberTypeConverter.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\ComponentModel\Converter\PercentTypeConverter.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\ComponentModel\Converter\RichTextTypeConverter.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\ComponentModel\TypeDescriptorContext.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\ComponentModel\ValidatingEvent.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\ComponentModel\Validator\IValidator.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\ComponentModel\Validator\ValidatorBase.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\ComponentModel\Validator\ValidatorTypeConverter.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\ComponentModel\Validator\ValueMapping.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\Configuration\CommandLineArgs.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\Configuration\ConfigurationException.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\Configuration\PersistableItem.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\Configuration\PersistableItemDictionary.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\Configuration\PersistableSettings.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\Data\DataSetHelper.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\Data\FileDataSet.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\Data\SqlClient\SqlCommandBuilder.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\Data\StreamDataSet.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\DateTimeHelper.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\Exceptions\Exceptions.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\IO\IsolatedStorage\IsolatedStorageSettingBase.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\IO\IsolatedStorage\IsolatedStorageSettingVersionBase.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\IO\StreamPersistence.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\IO\StringPersistence.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\Patterns\Activity.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\Patterns\ActivityCollection.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\Patterns\ActivityEvents.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\Patterns\AsyncActivity.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\Patterns\Exceptions.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\Runtime\Serialization\Utilities.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\Security\Cryptography\Utilities.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\Shell\MailToProtocol.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\Shell\Utilities.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\Text\FixedLength\Attributes.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\Text\FixedLength\Exceptions.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\Text\FixedLength\Field.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\Text\FixedLength\FieldList.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\Text\FixedLength\LineParser.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\Text\FixedLength\LineWriter.cs" />
+    <Compile Include="Libs\SourceGrid\DevAgeSourcePack4\Text\FixedLength\Utilities.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid.Extensions\ArrayGrid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Libs\SourceGrid\SourceGrid.Extensions\Cells\DataGridCells.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid.Extensions\Conditions\ConditionBuilder.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid.Extensions\Conditions\ConditionCell.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid.Extensions\Conditions\ConditionView.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid.Extensions\Conditions\ICondition.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid.Extensions\DataGrid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Libs\SourceGrid\SourceGrid.Extensions\DataGridColumn.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid.Extensions\DataGridRow.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid.Extensions\ListEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Libs\SourceGrid\SourceGrid.Extensions\PingGrids\Cells\Cell.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid.Extensions\PingGrids\Cells\CheckBox.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid.Extensions\PingGrids\Cells\ColumnHeader.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid.Extensions\PingGrids\Cells\Header.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid.Extensions\PingGrids\Cells\Image.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid.Extensions\PingGrids\Cells\Link.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid.Extensions\PingGrids\Cells\RowHeader.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid.Extensions\PingGrids\EmptyPingSource.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid.Extensions\PingGrids\IPingData.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid.Extensions\PingGrids\IPropertyResolver.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid.Extensions\PingGrids\PingGrid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Libs\SourceGrid\SourceGrid.Extensions\PingGrids\PingGridCellController.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid.Extensions\PingGrids\PingGridColumn.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid.Extensions\PingGrids\PingGridColumns.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid.Extensions\PingGrids\PingGridRowHeaderModel.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid.Extensions\PingGrids\PingGridRows.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid.Extensions\PingGrids\PingGridValueModel.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid.Extensions\PingGrids\ReflectionPropertyResolver.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid.Extensions\PlanningGrid.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Button.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Cell.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\CellCollection.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\CellContext.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\CellControl.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\CellVirtual.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\CheckBox.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\ColumnHeader.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Controllers\BindProperty.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Controllers\Button.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Controllers\CellEventDispatcher.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Controllers\CheckBox.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Controllers\ColumnFocus.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Controllers\ColumnSelector.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Controllers\ControllerBase.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Controllers\ControllerContainer.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Controllers\CustomEvents.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Controllers\IController.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Controllers\MouseCursor.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Controllers\MouseInvalidate.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Controllers\MouseSelection.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Controllers\Resizable.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Controllers\RichTextBox.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Controllers\RowFocus.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Controllers\RowSelector.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Controllers\SortableHeader.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Controllers\StandardBehavior.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Controllers\ToolTipText.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Controllers\Unselectable.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Editors\ComboBox.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Editors\DateTimePicker.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Editors\EditorBase.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Editors\EditorControlBase.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Editors\Factory.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Editors\ImagePicker.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Editors\NumericUpDown.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Editors\RichTextBox.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Editors\TextBox.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Editors\TextBoxButton.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Editors\TextBoxCurrency.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Editors\TextBoxNumeric.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Editors\TextBoxUITypeEditor.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Editors\TimePicker.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Header.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\ICell.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\ICellVirtual.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Image.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Link.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Models\ICheckBox.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Models\IImage.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Models\IModel.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Models\IRichTextBox.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Models\ISortableHeader.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Models\IToolTipText.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Models\IValueModel.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Models\ModelContainer.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Models\Real\Models.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Models\Real\RichTextBox.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\RichTextBox.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\RowHeader.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Views\Button.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Views\Cell.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Views\CheckBox.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Views\ColumnHeader.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Views\ComboBox.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Views\Header.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Views\IView.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Views\Link.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Views\MultiImages.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Views\RichTextBox.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Views\RowHeader.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Cells\Views\ViewBase.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Common\ColumnInfo.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Common\ColumnInfoCollection.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Common\ColumnsBase.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Common\ColumnsSimpleBase.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Common\CustomScrollControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Libs\SourceGrid\SourceGrid\Common\Enums.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Common\Events.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Common\IHiddenRowCoordinator.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Common\IRows.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Common\LinkedControlsList.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Common\Position.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Common\PositionCollection.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Common\Range.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Common\RangeCollection.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Common\RangeData.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Common\RangeRegion.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Common\RowInfo.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Common\RowInfoCollection.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Common\RowsBase.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Common\RowsSimpleBase.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Common\StandardHiddenRowCoordinator.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Common\Utilities.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Common\ValueCellComparer.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Decorators\DecoratorBase.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Decorators\DecoratorHighlight.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Decorators\DecoratorList.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Decorators\DecoratorSelection.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Exporter\CSV.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Exporter\GridPrintDocument.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Libs\SourceGrid\SourceGrid\Exporter\HTML.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Exporter\Image.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Grids\Grid.Columns.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Libs\SourceGrid\SourceGrid\Grids\Grid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Libs\SourceGrid\SourceGrid\Grids\Grid.Rows.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Grids\GridVirtual.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Libs\SourceGrid\SourceGrid\Grids\ISpannedCellRangesController.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Grids\ISpannedRangesCollection.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Grids\OverlappingCellException.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Grids\QuadTreeRangesList.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Grids\RangeNotFoundException.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Grids\SpannedCellRangesController.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Grids\SpannedRangesList.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\QuadTree\IHasRect.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\QuadTree\QuadTree.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\QuadTree\QuadTreeNode.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Selection\ColumnSelection.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Selection\FreeSelection.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Selection\IGridSelection.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Selection\RangeComparerByRows.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Selection\RangeMergerByRows.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Selection\RowSelection.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Selection\SelectionBase.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Utils\IPerformanceCounter.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Utils\PerformanceCounter.cs" />
+    <Compile Include="Libs\SourceGrid\SourceGrid\Utils\SourceGridConvert.cs" />
+    <Compile Include="Locator\Locator.cs" />
+    <Compile Include="MailProcessor\Client.cs" />
+    <Compile Include="MailProcessor\Mail.cs" />
+    <Compile Include="Map\BoundingBox.cs" />
+    <Compile Include="Map\Descriptor.cs" />
+    <Compile Include="Map\Manager.cs" />
+    <Compile Include="Map\Pack.cs" />
+    <Compile Include="Map\RouteOverlay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Map\Tile.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnitFormatter.cs" />
+    <Compile Include="Views\CacheInfoView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\CacheInfoView.Designer.cs">
+      <DependentUpon>CacheInfoView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CacheListView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\CacheListView.Designer.cs">
+      <DependentUpon>CacheListView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DescriptionView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\DescriptionView.Designer.cs">
+      <DependentUpon>DescriptionView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\Coordinates.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\Coordinates.Designer.cs">
+      <DependentUpon>Coordinates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\EditWaypoint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\EditWaypoint.Designer.cs">
+      <DependentUpon>EditWaypoint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\FormDownloadCacheImages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\FormDownloadCacheImages.Designer.cs">
+      <DependentUpon>FormDownloadCacheImages.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\GetCacheWaypoint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\GetCacheWaypoint.Designer.cs">
+      <DependentUpon>GetCacheWaypoint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\GetVariable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\GetVariable.Designer.cs">
+      <DependentUpon>GetVariable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\LocationEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\LocationEdit.Designer.cs">
+      <DependentUpon>LocationEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\LocationsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\LocationsForm.Designer.cs">
+      <DependentUpon>LocationsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\OpenDB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\OpenDB.Designer.cs">
+      <DependentUpon>OpenDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\ProjectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\ProjectionForm.Designer.cs">
+      <DependentUpon>ProjectionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\RemoveArchivedForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\RemoveArchivedForm.Designer.cs">
+      <DependentUpon>RemoveArchivedForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\SelectConfigFolder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\SelectConfigFolder.Designer.cs">
+      <DependentUpon>SelectConfigFolder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\Settings.Designer.cs">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Forms\SplashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Forms\SplashForm.Designer.cs">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\HintView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\HintView.Designer.cs">
+      <DependentUpon>HintView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LogView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\LogView.Designer.cs">
+      <DependentUpon>LogView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MapView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\MapView.Designer.cs">
+      <DependentUpon>MapView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\NotesView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\NotesView.Designer.cs">
+      <DependentUpon>NotesView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SolverView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\SolverView.Designer.cs">
+      <DependentUpon>SolverView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SpoilerView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\SpoilerView.Designer.cs">
+      <DependentUpon>SpoilerView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\WaypointView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\WaypointView.Designer.cs">
+      <DependentUpon>WaypointView.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Api\GetAccessToken.resx">
+      <DependentUpon>GetAccessToken.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Api\GetCacheStatus.resx">
+      <DependentUpon>GetCacheStatus.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CacheWolf\CacheWolfImport.resx">
+      <DependentUpon>CacheWolfImport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\CoordCacheWaypoint.resx">
+      <DependentUpon>CoordCacheWaypoint.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDownloadPocketQuery.resx">
+      <DependentUpon>FormDownloadPocketQuery.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormImportPocketQuery.resx">
+      <DependentUpon>FormImportPocketQuery.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportSettingsForm.resx">
+      <DependentUpon>ImportSettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\ButtonMultiSelection.resources" />
+    <EmbeddedResource Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\ButtonMultiSelection.resx">
+      <DependentUpon>ButtonMultiSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\ColorPicker.resources" />
+    <EmbeddedResource Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\ColorPicker.resx">
+      <DependentUpon>ColorPicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\DevAgeNumericUpDown.resources" />
+    <EmbeddedResource Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\DevAgeNumericUpDown.resx">
+      <DependentUpon>DevAgeNumericUpDown.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\DevAgeTextBoxButton.resources" />
+    <EmbeddedResource Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\DevAgeTextBoxButton.resx">
+      <DependentUpon>DevAgeTextBoxButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\DropDown.resources" />
+    <EmbeddedResource Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\DropDown.resx">
+      <DependentUpon>DropDown.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\DropDownButton.resources" />
+    <EmbeddedResource Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\DropDownButton.resx">
+      <DependentUpon>DropDownButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\EditableControlBase.resources" />
+    <EmbeddedResource Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\EditableControlBase.resx">
+      <DependentUpon>EditableControlBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\ErrorDialog.resources" />
+    <EmbeddedResource Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\ErrorDialog.resx">
+      <DependentUpon>ErrorDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\ErrorDialogDetails.resources" />
+    <EmbeddedResource Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\ErrorDialogDetails.resx">
+      <DependentUpon>ErrorDialogDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\FormBase.resources" />
+    <EmbeddedResource Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\FormBase.resx">
+      <DependentUpon>FormBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\ImageNavigator.resources" />
+    <EmbeddedResource Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\ImageNavigator.resx">
+      <DependentUpon>ImageNavigator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\Line.resources" />
+    <EmbeddedResource Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\Line.resx">
+      <DependentUpon>Line.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\LinkLabel.resources" />
+    <EmbeddedResource Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\LinkLabel.resx">
+      <DependentUpon>LinkLabel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\TextBoxUITypeEditor.resources" />
+    <EmbeddedResource Include="Libs\SourceGrid\DevAge.Windows.Forms\Windows\Forms\TextBoxUITypeEditor.resx">
+      <DependentUpon>TextBoxUITypeEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Libs\SourceGrid\DevAge.Windows.Forms\Properties\Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Libs\SourceGrid\SourceGrid.Extensions\DataGrid.resx">
+      <DependentUpon>DataGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Libs\SourceGrid\SourceGrid.Extensions\ListEditor.resx">
+      <DependentUpon>ListEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Libs\SourceGrid\SourceGrid.Extensions\PlanningGrid.resx">
+      <DependentUpon>PlanningGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Replication\ReplicationConflictForm.resx">
+      <DependentUpon>ReplicationConflictForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SdfExport\SDFBatchExport.resx">
+      <DependentUpon>SDFBatchExport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SdfExport\SdfExport.resx">
+      <DependentUpon>SdfExport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SdfExport\SdfExportSettingsForm.resx">
+      <DependentUpon>SdfExportSettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Solver\GetSolverFunction.resx">
+      <DependentUpon>GetSolverFunction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CacheInfoView.resx">
+      <DependentUpon>CacheInfoView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CacheListView.resx">
+      <DependentUpon>CacheListView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\DescriptionView.resx">
+      <DependentUpon>DescriptionView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Filter\FilterForm.resx">
+      <DependentUpon>FilterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\Coordinates.resx">
+      <DependentUpon>Coordinates.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\EditWaypoint.resx">
+      <DependentUpon>EditWaypoint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\FormDownloadCacheImages.resx">
+      <DependentUpon>FormDownloadCacheImages.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\GetCacheWaypoint.resx">
+      <DependentUpon>GetCacheWaypoint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\GetVariable.resx">
+      <DependentUpon>GetVariable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\LocationEdit.resx">
+      <DependentUpon>LocationEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\LocationsForm.resx">
+      <DependentUpon>LocationsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\OpenDB.resx">
+      <DependentUpon>OpenDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\ProjectionForm.resx">
+      <DependentUpon>ProjectionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\RemoveArchivedForm.resx">
+      <DependentUpon>RemoveArchivedForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\SelectConfigFolder.resx">
+      <DependentUpon>SelectConfigFolder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\Settings.resx">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Forms\SplashForm.resx">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\HintView.resx">
+      <DependentUpon>HintView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\LogView.resx">
+      <DependentUpon>LogView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MapView.resx">
+      <DependentUpon>MapView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\NotesView.resx">
+      <DependentUpon>NotesView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SolverView.resx">
+      <DependentUpon>SolverView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SpoilerView.resx">
+      <DependentUpon>SpoilerView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\WaypointView.resx">
+      <DependentUpon>WaypointView.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <EmbeddedResource Include="create_SQLite.sql" />
+    <EmbeddedResource Include="createwin_SQLite.sql" />
+    <Content Include="data\Attributes\att_10_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_10_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_11_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_12_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_13_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_13_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_14_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_14_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_15_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_15_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_16_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_16_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_17_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_17_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_18_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_19_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_1_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_1_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_20_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_21_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_22_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_23_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_24_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_24_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_25_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_25_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_26_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_27_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_27_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_28_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_28_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_29_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_29_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_2_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_30_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_30_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_31_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_31_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_32_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_32_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_33_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_33_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_34_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_34_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_35_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_35_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_36_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_36_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_37_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_37_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_38_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_38_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_39_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_3_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_40_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_40_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_41_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_41_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_42_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_43_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_44_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_45_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_45_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_46_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_46_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_47_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_47_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_48_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_49_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_4_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_50_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_51_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_52_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_52_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_53_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_53_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_54_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_54_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_55_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_55_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_56_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_56_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_57_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_57_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_58_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_58_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_59_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_59_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_5_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_60_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_61_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_61_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_62_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_62_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_63_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_64_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_64_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_65_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_65_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_66_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_66_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_6_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_6_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_7_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_7_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_8_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_8_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_9_0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\Attributes\att_9_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\lang\de.lan">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\lang\en.lan">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\lang\pt.lan">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Libs\SourceGrid\DevAge.Windows.Forms\Drawing\VisualElements\VisualElements.cd" />
+    <None Include="Libs\SourceGrid\DevAgeSourcePack4\ComponentModel\Validator\ValidatorDiagram.cd" />
+    <None Include="Libs\SourceGrid\SourceGrid\SourceGrid.snk" />
+    <None Include="packages.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="create.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="createwin.sql" />
+    <Content Include="data\LogTypes\icon_needsmaint.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\LogTypes\icon_sad.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\LogTypes\icon_smile.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\sounds\Approach.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\sounds\AutoResort.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\sounds\GPS_Fix.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\WptTypes\11.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\WptTypes\12.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\WptTypes\13.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\WptTypes\137.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\WptTypes\1858.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\WptTypes\2.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\WptTypes\3.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\WptTypes\4.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\WptTypes\5.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\WptTypes\6.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\WptTypes\8.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\WptTypes\mega.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DotNetOpenAuth.dll" />
+    <Content Include="Icon1.ico" />
+    <EmbeddedResource Include="icons\big-2-solved-found.png" />
+    <EmbeddedResource Include="icons\big-2-solved.png" />
+    <EmbeddedResource Include="icons\filepinned.png" />
+    <EmbeddedResource Include="icons\Map_13x13_Blue.png" />
+    <EmbeddedResource Include="icons\Map_13x13_Green.png" />
+    <EmbeddedResource Include="icons\Map_13x13_Red.png" />
+    <EmbeddedResource Include="icons\Map_13x13_Violet.png" />
+    <EmbeddedResource Include="icons\Map_13x13_White.png" />
+    <EmbeddedResource Include="icons\Map_13x13_Yellow.png" />
+    <EmbeddedResource Include="icons\Map_8x8_Blue.png" />
+    <EmbeddedResource Include="icons\Map_8x8_Green.png" />
+    <EmbeddedResource Include="icons\Map_8x8_Red.png" />
+    <EmbeddedResource Include="icons\Map_8x8_Violet.png" />
+    <EmbeddedResource Include="icons\Map_8x8_White.png" />
+    <EmbeddedResource Include="icons\Map_8x8_Yellow.png" />
+    <EmbeddedResource Include="icons\Map_20x20_0.png" />
+    <EmbeddedResource Include="icons\Map_20x20_1.png" />
+    <EmbeddedResource Include="icons\Map_20x20_10.png" />
+    <EmbeddedResource Include="icons\Map_20x20_11.png" />
+    <EmbeddedResource Include="icons\Map_20x20_12.png" />
+    <EmbeddedResource Include="icons\Map_20x20_13.png" />
+    <EmbeddedResource Include="icons\Map_20x20_14.png" />
+    <EmbeddedResource Include="icons\Map_20x20_15.png" />
+    <EmbeddedResource Include="icons\Map_20x20_16.png" />
+    <EmbeddedResource Include="icons\Map_20x20_17.png" />
+    <EmbeddedResource Include="icons\Map_20x20_18.png" />
+    <EmbeddedResource Include="icons\Map_20x20_19.png" />
+    <EmbeddedResource Include="icons\Map_20x20_2.png" />
+    <EmbeddedResource Include="icons\Map_20x20_20.png" />
+    <EmbeddedResource Include="icons\Map_20x20_21.png" />
+    <EmbeddedResource Include="icons\Map_20x20_22.png" />
+    <EmbeddedResource Include="icons\Map_20x20_3.png" />
+    <EmbeddedResource Include="icons\Map_20x20_4.png" />
+    <EmbeddedResource Include="icons\Map_20x20_5.png" />
+    <EmbeddedResource Include="icons\Map_20x20_6.png" />
+    <EmbeddedResource Include="icons\Map_20x20_7.png" />
+    <EmbeddedResource Include="icons\Map_20x20_8.png" />
+    <EmbeddedResource Include="icons\Map_20x20_9.png" />
+    <EmbeddedResource Include="icons\Map_13x13_Found.png" />
+    <EmbeddedResource Include="icons\Map_13x13_Own.png" />
+    <EmbeddedResource Include="icons\Map_13x13_ShaddowRect.png" />
+    <EmbeddedResource Include="icons\Map_8x8_ShaddowRect.png" />
+    <EmbeddedResource Include="icons\Map_20x20_ShaddowRect.png" />
+    <EmbeddedResource Include="icons\Map_13x13_ShaddowRound.png" />
+    <EmbeddedResource Include="icons\Map_8x8_Found.png" />
+    <EmbeddedResource Include="icons\Map_8x8_ShaddowRound.png" />
+    <EmbeddedResource Include="icons\Map_13x13_ShaddowStar.png" />
+    <EmbeddedResource Include="icons\Map_8x8_Own.png" />
+    <EmbeddedResource Include="icons\Map_8x8_ShaddowStar.png" />
+    <EmbeddedResource Include="icons\Map_20x20_Selected.png" />
+    <EmbeddedResource Include="icons\Map_13x13_Strikeout.png" />
+    <EmbeddedResource Include="icons\Map_8x8_Strikeout.png" />
+    <EmbeddedResource Include="icons\Map_20x20_ShaddowRect_Deact.png" />
+    <EmbeddedResource Include="icons\Map_20x20_Selected_Deact.png" />
+    <EmbeddedResource Include="icons\Attributes\att_10_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_10_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_11_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_12_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_13_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_13_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_14_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_14_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_15_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_15_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_17_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_17_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_18_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_19_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_1_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_1_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_20_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_21_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_22_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_23_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_24_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_24_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_25_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_25_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_26_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_27_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_27_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_28_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_28_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_29_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_29_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_2_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_30_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_30_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_31_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_31_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_32_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_32_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_33_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_33_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_34_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_34_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_35_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_35_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_36_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_36_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_37_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_37_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_38_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_38_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_39_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_3_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_40_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_40_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_41_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_41_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_42_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_43_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_44_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_46_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_46_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_47_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_47_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_48_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_49_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_4_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_50_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_51_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_52_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_52_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_53_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_53_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_54_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_54_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_55_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_55_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_56_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_56_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_57_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_57_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_58_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_58_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_59_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_59_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_5_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_60_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_63_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_6_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_6_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_7_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_7_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_8_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_8_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_9_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_9_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_16_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_16_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_45_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_45_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_64_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_64_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_65_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_65_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_66_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_66_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_61_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_61_1.png" />
+    <EmbeddedResource Include="icons\Attributes\att_62_0.png" />
+    <EmbeddedResource Include="icons\Attributes\att_62_1.png" />
+    <Content Include="img\stars0.gif" />
+    <Content Include="Libs\SourceGrid\DevAge.Windows.Forms\Res\DropDown.ico" />
+    <Content Include="Libs\SourceGrid\DevAge.Windows.Forms\Res\left.cur" />
+    <Content Include="Libs\SourceGrid\DevAge.Windows.Forms\Res\right.cur" />
+    <Content Include="Libs\SourceGrid\DevAge.Windows.Forms\Res\SortDown.ico" />
+    <Content Include="Libs\SourceGrid\DevAge.Windows.Forms\Res\SortUp.ico" />
+    <Content Include="Libs\SourceGrid\SourceGrid.Extensions\Res\Add.ico" />
+    <Content Include="Libs\SourceGrid\SourceGrid.Extensions\Res\ArrowDown.ICO" />
+    <Content Include="Libs\SourceGrid\SourceGrid.Extensions\Res\ArrowUp.ICO" />
+    <Content Include="Libs\SourceGrid\SourceGrid.Extensions\Res\Delete.ICO" />
+    <Content Include="Libs\SourceGrid\SourceGrid.Extensions\Res\Refresh.ico" />
+    <Content Include="Libs\SourceGrid\SourceGrid\Grid.bmp" />
+    <Content Include="Libs\SourceGrid\SourceGrid\GridVirtual.bmp" />
+    <Content Include="Libs\SourceGrid\SourceGrid\SourceGrid.csproj" />
+    <Content Include="Libs\SQLite\System.Data.SQLite.dll" />
+    <Content Include="Libs\WinFormUI\WeifenLuo.WinFormsUI.Docking.dll" />
+    <None Include="Resources\Geocaching_LIVE_poweredby_128.png" />
+    <None Include="Resources\Geocaching_LIVE_poweredby_64.png" />
+    <None Include="Resources\Geocaching_LIVE_poweredby_48.png" />
+    <None Include="Resources\Geocaching_API_Logo_vCOMP2_090716_LRG.png" />
+    <Content Include="sqlceca35.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="sqlcecompact35.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="sqlceer35DE.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="sqlceer35EN.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="sqlceme35.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="sqlceoledb35.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="sqlceqp35.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="sqlcese35.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\Icon1.ico" />
+    <None Include="Resources\right.cur" />
+    <None Include="Resources\left.cur" />
+    <EmbeddedResource Include="icons\addwaypoint.png" />
+    <EmbeddedResource Include="icons\archiv.png" />
+    <EmbeddedResource Include="icons\bat0.png" />
+    <EmbeddedResource Include="icons\bat1.png" />
+    <EmbeddedResource Include="icons\bat2.png" />
+    <EmbeddedResource Include="icons\bat3.png" />
+    <EmbeddedResource Include="icons\bat4.png" />
+    <EmbeddedResource Include="icons\big-0-found.png" />
+    <EmbeddedResource Include="icons\big-0.png" />
+    <EmbeddedResource Include="icons\big-1-found.png" />
+    <EmbeddedResource Include="icons\big-1.png" />
+    <EmbeddedResource Include="icons\big-10-found.png" />
+    <EmbeddedResource Include="icons\big-10.png" />
+    <EmbeddedResource Include="icons\big-11.png" />
+    <EmbeddedResource Include="icons\big-12.png" />
+    <EmbeddedResource Include="icons\big-13.png" />
+    <EmbeddedResource Include="icons\big-14.png" />
+    <EmbeddedResource Include="icons\big-15.png" />
+    <EmbeddedResource Include="icons\big-16.png" />
+    <EmbeddedResource Include="icons\big-17.png" />
+    <EmbeddedResource Include="icons\big-18.png" />
+    <EmbeddedResource Include="icons\big-2-found.png" />
+    <EmbeddedResource Include="icons\big-2.png" />
+    <EmbeddedResource Include="icons\big-3-found.png" />
+    <EmbeddedResource Include="icons\big-3.png" />
+    <EmbeddedResource Include="icons\big-4-found.png" />
+    <EmbeddedResource Include="icons\big-4.png" />
+    <EmbeddedResource Include="icons\big-5-found.png" />
+    <EmbeddedResource Include="icons\big-5.png" />
+    <EmbeddedResource Include="icons\big-6-found.png" />
+    <EmbeddedResource Include="icons\big-6.png" />
+    <EmbeddedResource Include="icons\big-7-found.png" />
+    <EmbeddedResource Include="icons\big-7.png" />
+    <EmbeddedResource Include="icons\big-8-found.png" />
+    <EmbeddedResource Include="icons\big-8.png" />
+    <EmbeddedResource Include="icons\big-9-found.png" />
+    <EmbeddedResource Include="icons\big-9.png" />
+    <EmbeddedResource Include="icons\bug.png" />
+    <EmbeddedResource Include="icons\button-left.png" />
+    <EmbeddedResource Include="icons\button-rechts.png" />
+    <EmbeddedResource Include="icons\Cachebox start_480x800.jpg" />
+    <EmbeddedResource Include="icons\cb.ico" />
+    <EmbeddedResource Include="icons\checkbox-checked.png" />
+    <EmbeddedResource Include="icons\checkbox-crossed.png" />
+    <EmbeddedResource Include="icons\checkbox-unchecked.png" />
+    <EmbeddedResource Include="icons\collapse.png" />
+    <EmbeddedResource Include="icons\delete.jpg" />
+    <EmbeddedResource Include="icons\disabled.png" />
+    <EmbeddedResource Include="icons\download.png" />
+    <EmbeddedResource Include="icons\drop_tb.png" />
+    <EmbeddedResource Include="icons\earth.png" />
+    <EmbeddedResource Include="icons\enabled.png" />
+    <EmbeddedResource Include="icons\expand.png" />
+    <EmbeddedResource Include="icons\favorit.png" />
+    <EmbeddedResource Include="icons\file.png" />
+    <EmbeddedResource Include="icons\Geocaching_Disabled.bmp" />
+    <EmbeddedResource Include="icons\Geocaching_Final Location.bmp" />
+    <EmbeddedResource Include="icons\Geocaching_Found.bmp" />
+    <EmbeddedResource Include="icons\Geocaching_Parking Area.bmp" />
+    <EmbeddedResource Include="icons\Geocaching_Question to Answer.bmp" />
+    <EmbeddedResource Include="icons\Geocaching_Reference Point.bmp" />
+    <EmbeddedResource Include="icons\Geocaching_Stages of a Multicache.bmp" />
+    <EmbeddedResource Include="icons\Geocaching_StilltoFind.bmp" />
+    <EmbeddedResource Include="icons\Geocaching_Trailhead.bmp" />
+    <EmbeddedResource Include="icons\icon_sad.gif" />
+    <EmbeddedResource Include="icons\icon_smile.gif" />
+    <EmbeddedResource Include="icons\large.gif" />
+    <EmbeddedResource Include="icons\log0.png" />
+    <EmbeddedResource Include="icons\log1.png" />
+    <EmbeddedResource Include="icons\log10.png" />
+    <EmbeddedResource Include="icons\log11.png" />
+    <EmbeddedResource Include="icons\log12.png" />
+    <EmbeddedResource Include="icons\log13.png" />
+    <EmbeddedResource Include="icons\log2.png" />
+    <EmbeddedResource Include="icons\log3.png" />
+    <EmbeddedResource Include="icons\log4.png" />
+    <EmbeddedResource Include="icons\log5.png" />
+    <EmbeddedResource Include="icons\log6.png" />
+    <EmbeddedResource Include="icons\log7.png" />
+    <EmbeddedResource Include="icons\log8.png" />
+    <EmbeddedResource Include="icons\log9.png" />
+    <EmbeddedResource Include="icons\maintenance.png" />
+    <EmbeddedResource Include="icons\map0.png" />
+    <EmbeddedResource Include="icons\map1.png" />
+    <EmbeddedResource Include="icons\map10.png" />
+    <EmbeddedResource Include="icons\map11.png" />
+    <EmbeddedResource Include="icons\map12.png" />
+    <EmbeddedResource Include="icons\map13.png" />
+    <EmbeddedResource Include="icons\map14.png" />
+    <EmbeddedResource Include="icons\map15.png" />
+    <EmbeddedResource Include="icons\map16.png" />
+    <EmbeddedResource Include="icons\map17.png" />
+    <EmbeddedResource Include="icons\map18.png" />
+    <EmbeddedResource Include="icons\map19.png" />
+    <EmbeddedResource Include="icons\map2.png" />
+    <EmbeddedResource Include="icons\map20.png" />
+    <EmbeddedResource Include="icons\map21.png" />
+    <EmbeddedResource Include="icons\map22.png" />
+    <EmbeddedResource Include="icons\map3.png" />
+    <EmbeddedResource Include="icons\map4.png" />
+    <EmbeddedResource Include="icons\map5.png" />
+    <EmbeddedResource Include="icons\map6.png" />
+    <EmbeddedResource Include="icons\map7.png" />
+    <EmbeddedResource Include="icons\map8.png" />
+    <EmbeddedResource Include="icons\map9.png" />
+    <EmbeddedResource Include="icons\micro.gif" />
+    <EmbeddedResource Include="icons\mond.png" />
+    <EmbeddedResource Include="icons\not_available.jpg" />
+    <EmbeddedResource Include="icons\other.gif" />
+    <EmbeddedResource Include="icons\radio-checked.png" />
+    <EmbeddedResource Include="icons\radio-unchecked.png" />
+    <EmbeddedResource Include="icons\rec_pause.png" />
+    <EmbeddedResource Include="icons\rec_record.png" />
+    <EmbeddedResource Include="icons\rec_stop.png" />
+    <EmbeddedResource Include="icons\regular.gif" />
+    <EmbeddedResource Include="icons\retrieve_tb.png" />
+    <EmbeddedResource Include="icons\small.gif" />
+    <EmbeddedResource Include="icons\smallstars-0.png" />
+    <EmbeddedResource Include="icons\smallstars-0_5.png" />
+    <EmbeddedResource Include="icons\smallstars-1.png" />
+    <EmbeddedResource Include="icons\smallstars-1_5.png" />
+    <EmbeddedResource Include="icons\smallstars-2.png" />
+    <EmbeddedResource Include="icons\smallstars-2_5.png" />
+    <EmbeddedResource Include="icons\smallstars-3.png" />
+    <EmbeddedResource Include="icons\smallstars-3_5.png" />
+    <EmbeddedResource Include="icons\smallstars-4.png" />
+    <EmbeddedResource Include="icons\smallstars-4_5.png" />
+    <EmbeddedResource Include="icons\smallstars-5.png" />
+    <EmbeddedResource Include="icons\sonne.png" />
+    <EmbeddedResource Include="icons\star.png" />
+    <EmbeddedResource Include="icons\stars0.gif" />
+    <EmbeddedResource Include="icons\stars0_5.gif" />
+    <EmbeddedResource Include="icons\stars1.gif" />
+    <EmbeddedResource Include="icons\stars1_5.gif" />
+    <EmbeddedResource Include="icons\stars2.gif" />
+    <EmbeddedResource Include="icons\stars2_5.gif" />
+    <EmbeddedResource Include="icons\stars3.gif" />
+    <EmbeddedResource Include="icons\stars3_5.gif" />
+    <EmbeddedResource Include="icons\stars4.gif" />
+    <EmbeddedResource Include="icons\stars4_5.gif" />
+    <EmbeddedResource Include="icons\stars5.gif" />
+    <EmbeddedResource Include="icons\travelbug.png" />
+    <EmbeddedResource Include="icons\UserData.jpg" />
+    <Content Include="img\big-0.gif" />
+    <Content Include="img\big-1.gif" />
+    <Content Include="img\big-10.gif" />
+    <Content Include="img\big-12.png" />
+    <Content Include="img\big-2.gif" />
+    <Content Include="img\big-3.gif" />
+    <Content Include="img\big-4.gif" />
+    <Content Include="img\big-5.gif" />
+    <Content Include="img\big-6.gif" />
+    <Content Include="img\big-7.gif" />
+    <Content Include="img\big-8.gif" />
+    <Content Include="img\big-9.gif" />
+    <Content Include="img\bug.gif" />
+    <Content Include="img\gps-signal-0-low.png" />
+    <Content Include="img\gps-signal-0.png" />
+    <Content Include="img\gps-signal-1-low.png" />
+    <Content Include="img\gps-signal-1.png" />
+    <Content Include="img\gps-signal-2-low.png" />
+    <Content Include="img\gps-signal-2.png" />
+    <Content Include="img\gps-signal-3-low.png" />
+    <Content Include="img\gps-signal-3.png" />
+    <Content Include="img\gps-signal-4-low.png" />
+    <Content Include="img\gps-signal-4.png" />
+    <Content Include="img\infoscreen.jpg" />
+    <Content Include="img\large.gif" />
+    <Content Include="img\micro.gif" />
+    <Content Include="img\other.gif" />
+    <Content Include="img\regular.gif" />
+    <Content Include="img\small-0.png" />
+    <Content Include="img\small-1.png" />
+    <Content Include="img\small-10.png" />
+    <Content Include="img\small-11.png" />
+    <Content Include="img\small-12.png" />
+    <Content Include="img\small-14.jpg" />
+    <Content Include="img\small-15.jpg" />
+    <Content Include="img\small-16.jpg" />
+    <Content Include="img\small-17.png" />
+    <Content Include="img\small-18.jpg" />
+    <Content Include="img\small-2.png" />
+    <Content Include="img\small-3.png" />
+    <Content Include="img\small-4.png" />
+    <Content Include="img\small-5.png" />
+    <Content Include="img\small-6.png" />
+    <Content Include="img\small-7.png" />
+    <Content Include="img\small-8.png" />
+    <Content Include="img\small-9.png" />
+    <Content Include="img\small.gif" />
+    <Content Include="img\stars1.gif" />
+    <Content Include="img\stars1_5.gif" />
+    <Content Include="img\stars2.gif" />
+    <Content Include="img\stars2_5.gif" />
+    <Content Include="img\stars3.gif" />
+    <Content Include="img\stars3_5.gif" />
+    <Content Include="img\stars4.gif" />
+    <Content Include="img\stars4_5.gif" />
+    <Content Include="img\stars5.gif" />
+    <Content Include="img\startscreen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.3.5">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 3.5 SP2</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Dieses Projekt verweist auf mindestens ein NuGet-Paket, das auf diesem Computer fehlt. Verwenden Sie die Wiederherstellung von NuGet-Paketen, um die fehlenden Dateien herunterzuladen. Weitere Informationen finden Sie unter "http://go.microsoft.com/fwlink/?LinkID=322105". Die fehlende Datei ist "{0}".</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

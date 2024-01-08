@@ -1,0 +1,504 @@
+﻿Deutsch
+// form1
+    openDBMenu = "DB &wechseln"
+    openDB = "DB wechseln"
+	Database Name = "Datenbank Name"
+	Database Type = "Datenbank Type"
+	Own Repository = "Eigenes Repository"
+	f1 = CacheBox für Windows+
+	ownRepos = eigenes Repository
+	f3 = &Datei
+	f4 = &Ansicht
+	database = Datenbank
+	databases = Datenbanken
+	f7 = &Hilfe
+	f9 = Import von &CacheWolf
+	batchExportImport = Batch Export/Import
+	userdata = Benutzerdaten
+	f13 = Bee&nden
+	f14 = Karten Quelle wählen
+	f15 = Filtere Cache
+	f16 = Archiviere gefilterte Caches
+	f17 = Lösche gefilterte Caches
+	f18 = Aktualisiere Status gefilterter Cache (Online)
+	f19 = Komprimiere Datenbank
+	f20 = Repariere Datenbank
+	f23 = Ansicht wiederherstellen
+	f24 = Über Cachebox
+	Location = Standort
+	Locations = Standorte
+	f26 = Aktuelles Zentrum
+	f28 = Filterung aufheben
+	f29 = Erneut filtern
+	// messageboxes
+	f29 =  Cache erfolgreich geändert!
+	f30 = Das Datenbank Verzeichnis [
+	f31 = ] konnte nicht erstellt werden!\n
+	f33 = Fehler
+	f34 = Möchtest du wirklich alle gefilterten Cache löschen?
+	f35 = Cache löschen
+	f36 = Möchtest du wirklich alle gefilterten Cache als "archiviert" markieren?
+	f37 = Cache archivieren
+	f38 = Möchtest du wirklich die Kennzeichnung "Beschreibung geändert" zurücksetzen?
+	Logs = Logbuch
+	overwriteDB = Überschreiben der Datenbank
+	mapview = Kartenansicht
+	wait = Bitte warten
+// Import
+	pqfromgc = Pocket Queries (gc.com)
+	preloadimages = Bilder für gefilterte Cache
+	gpxfrommail = aus e-mail holen
+	gcvote = GcVote Bewertungen für gefilterte Cache
+	FirstImported = Erster Import
+	LastImported = Letzter Import
+// CacheInfoView
+	civ0 = Kein Cache gewählt
+	civ1 = Wähle einen Cache aus der Liste
+	difficulty = Schwierigkeit
+	terrain = Gelände
+	size = Größe
+	rating = Bewertung
+	civ5 = (unbekannt)
+	civ7 = unbekannt
+	civ8 = Mikro
+	civ9 = Klein
+	civ10 = Normal
+	civ11 = Groß
+	civ12 = von+
+// SDFBatchExport
+	mapPack = MapPack
+	path = Verzeichnis
+// SDFExportSettings
+	changes = Die Zieldatenbank
+	synchron = ist nicht synchron mit WinCachebox. Soll zuerst synchronisiert werden?
+	synchronize = Synchronisieren
+// Filter
+	name = Name
+	general = Allgemein
+	d/t = D / T
+	cachetype = Cache Type
+	attributes = Attribute
+	country/state = Land / Region
+	presets = Voreinstellungen
+	quick = schnelle
+	changed = geändert
+	listing = Beschreibung
+	reset = zurücksetzen
+	searchable = suchbare
+	highlights = Glanzlichter
+	archivable = archivierbar
+	droppable = ablegbar
+	contains = enthält
+	travelbugs = travelbugs
+	disabled = deaktiviert
+	archived = archiviert
+	myfinds = meine Funde
+	own = eigene
+	not = nicht
+	manual = selbst hinzugefügte
+	country = Land
+	state = Region
+	empty = nicht gesetzt
+	cachename = Cache-Name
+	gpxfilename = GPX-Dateinamen
+	gpxolderthan = GPX älter als (Tage)
+	subcategories = Unterkategorien (Import Datum)
+	categories = Kategorien
+	at1 = Hunde
+	at2 = Zugang oder Parkgebühren
+	at3 = Kletterausrüstung
+	at4 = Boot
+	at5 = Tauchausrüstung
+	at6 = empfohlen für Kinder
+	at7 = dauert weniger als eine Stunde
+	at8 = malerischer Blick
+	at9 = signifikante Wanderung
+	at10 = anstrengende Klettertour
+	at11 = erfordert möglicherweise Waten
+	at12 = erfordert möglicherweise Schwimmen
+	at13 = jederzeit verfügbar
+	at14 = empfohlen bei Nacht
+	at15 = verfügbar im Winter
+	at16 = kaktus
+	at17 = Giftpflanzen
+	at18 = gefährliche Tiere
+	at19 = Zecken
+	at20 = verlassene Bergwerke
+	at21 = Klippe / Steinschlag
+	at22 = Jagd
+	at23 = Gefahrenbereich
+	at24 = rollstuhlgerecht
+	at25 = Parkplätze stehen zur Verfügung
+	at26 = öffentliche Verkehrsmittel
+	at27 = Trinkwasser in der Nähe
+	at28 = öffentlichen Toiletten in der Nähe
+	at29 = Telefon in der Nähe
+	at30 = Picknick-Tische in der Nähe
+	at31 = Campingplätze zur Verfügung
+	at32 = Fahrräder
+	at33 = Motorräder
+	at34 = Quads
+	at35 = Off-Road-Fahrzeuge
+	at36 = Motorschlitten
+	at37 = Pferde
+	at38 = Lagerfeuer
+	at39 = Dornen
+	at40 = Heimlichkeit erforderlich
+	at41 = Kinderwagen zugänglich
+	at42 = muss gewartet werden
+	at43 = Achten Sie auf Nutztiere
+	at44 = Taschenlampe erforderlich
+	at45 = lost & found
+	at46 = LKW-Fahrer / Wohnwagen
+	at47 = Rätsel unterwegs
+	at48 = UV-Licht benötigt
+	at49 = Schneeschuhe
+	at50 = Langlaufski
+	at51 = Spezialwerkzeug erforderlich
+	at52 = Nacht-Cache
+	at53 = parken und zugreifen
+	at54 = verlassene Gebäude
+	at55 = kurze Wanderung (weniger als 1 km)
+	at56 = mittelschwere Wanderung (1km-10km)
+	at57 = lange Wanderung (+10 km)
+	at58 = Kraftstoff in der Nähe
+	at59 = Essen in der Nähe
+	at60 = Wireless Beacon
+	at61 = Partnerschaftscache
+	at62 = jahreszeitlich beschränkter Zugang
+	at63 = Touristen freundlich
+	at64 = Baumklettern
+	at65 = Vorgarten
+	at66 = Teamarbeit erforderlich
+// HintView
+	decode = &Entschlüsseln
+// 	Settings
+	Images = Bilder
+	gcUsername = GC Benutzername
+	GetAPIKey = Hole API Key von GC
+	GcVotePassword = Kennwort bei GcVote
+	SelectLanguage = Sprache wählen:
+	MapDetailLevels = Auflösung der Karten
+	Layers = Karten
+	Area = Bereich
+	dpiRendering = Anzeige beachtet DPI
+	ShowCross = Zeige Kreuz ab Vergrösserung >
+	SpoilerTags = Kürzel für Spoiler (getrennt durch ;)
+	SpoilerMax = Max Spoilergröße (px)
+	ImagesMax = Max Bildergröße (px)
+	SpoilerRotate = Spoiler drehen?
+	DeleteLogs = Lösche Logs
+	KeepLogs = aber behalte mindestens
+	immediately = sofort
+	1month = nach 1 Monat
+	2months = nach 2 Monaten
+	3months = nach 3 Monaten
+	4months = nach 4 Monaten
+	5months = nach 5 Monaten
+	6months = nach 6 Monaten
+	0logs = 0 Logeinträge
+	5logs = 5 Logeinträge
+	10logs = 10 Logeinträge
+	15logs = 15 Logeinträge
+	20logs = 20 Logeinträge
+	25logs = 25 Logeinträge
+		
+	//MapLayer
+	Mapnik = Mapnik
+	OpenTopoMap = OpenTopoMap
+	CycleMap = CycleMap
+	MapQuest = MapQuest
+
+// Main Menu
+	Misc = Mehr
+	Find = Info
+	Nav = Nav
+	Cache = Cache
+	DB = DB
+	Description = Beschreibung
+	MakeSelection = Auswahl zulassen
+	Waypoints = Wegpunkte
+	Notes = Notizen
+	Solver = Löser
+	Favorite = Favorit
+	Map = Karte
+	maps = Karten
+	Compass = Kompass
+	Radar = Radar
+	Tracks = Tracks
+	ShowLogs = Zeige Logs
+	MyFieldNotes = Meine Notizen
+	hint = Hinweis
+	spoiler = Hinweisbilder
+	about = Über cachebox!
+	settings = Einstellungen
+	tools = Tools
+	import = Import
+	quit = Beenden / Minimieren
+	found = Gefunden!
+	DNF = Nicht gefunden!
+	maintenance = Bedarf Wartung
+	AddNote = Notiz hinzufügen
+	ClearCurrentFieldNote = Lösche aktuelle Notizen
+	ShowRecentNotes = Zeige neue Notizen
+	cacheList = Liste
+	filter = Filter
+	search = Suchen
+	ResortList = Liste neu Sortieren
+	AutoResort = Automatisch Sortieren
+	record = Aufnahme
+	pause = Pause
+	stop = Stop
+	export = Export
+	TrackRec = Track Aufzeichnung
+	VoiceRec = Sprach Aufzeichnung
+	createPQ = Erstelle Pocket Query
+	uploadFieldNotes = Notizen hochladen
+	TomTom = TomTom
+	GPX = GPX
+	GoogleMap = Google Map
+	TakePhoto = Foto machen
+	RecVideo = Video aufnehmen
+	ChkUpdate = Suche nach Updates
+	manage = DB Auswahl
+	notValid = ungültig
+	Set/UnSetFavorite = Als Favorit setzen/zurücksetzen
+// AboutViewPanel
+	caches_found = Gefundene Caches:
+	gps = GPS:
+	not_active = nicht Aktive
+	not_detected = nicht erkannt
+	sats_nr = Sats:
+	Hdop = Hdop:
+	alt = Höhe:
+	waiting_for_fix = Auf Signal warten
+	not_responding = not responding
+	waypoint = Wegpunkt:
+	coordinate = Koordinate
+	current = Aktuell:
+
+// MsgBox texts
+	Error = Fehler
+	Warning = Warnung!
+	thisNotWork = Das funktioniert nicht!
+
+	Open_getcachebox_Link = Öffne www.getcachebox.net im Browser
+	allowInetConn = Ausgeschaltene Internetverbindung! Wollen Sie diesen Verweis trotzdem öffnen?
+
+	Open_Cache_Link = Öffne Cache im Browser
+	Cann_not_open_cache_browser = Kann Cache nicht im Browser öffnen!
+
+	CanntProcessUpdateFiles = Kann aktualisierte Dateien nicht bearbeiten!
+	ErrDbStartup = Fehler während des Datenbankanlaufs!
+	CanntCreateProxy = Cannot create Proxy!
+
+	Quit? = cachebox beenden?
+	QuitReally = Wollen Sie cachebox wirklich schließen?
+
+	uploadFieldNotes? = Notizen zu geocaching.com hochladen? Dies könnte Kosten verursachen!
+	NoFindsLogged = Sie haben keine Funde mit Cachebox geloggt!
+
+	CreatePQ? = Möchten Sie ein Pocket Query auf geocaching.com erstellen? Dies könnte Kosten verursachen!
+
+	CanntOpenRecentNotes = Kann neue Notizen nicht im Browser öffnen
+
+	ShowSpoiler = Zeige Spoiler
+	spoilSearch = Spoiler wirklich Suchen?
+
+	ErrStartExternViewer = Beim starten des Externen Bildbetrachters
+
+	downloadSpoiler = Download Spoiler
+	downloadSpoiler? = Spoiler wirklich herrunter Laden?
+	NoSpoiler = Keine Spoiler vorhanden.
+	NoCacheSelect = Kein Cache angewählt.
+	NoAccessAllowed = Internet Verbindung nicht erlaubt! Schalten Sie die Verbindung in den Einstellungen ein, um Spoiler herrunter zu Laden.
+
+	ErrNoCam = Es gab einen Fehler! Es scheint so, als ob Ihr Gerät keine Kamera hat!
+
+	AppUpdate = Update Application
+	AccessUpdate? = Erlaube eine Internet Verbindung, um jetzt nach Updates zu suchen?
+
+	ErrLanchUpdater = Start Fehler des Updaters!
+
+	upToDate = Die Installierte Version ist auf dem neusten Stand!
+
+	ErrChkUpdate = Checking for updates failed...
+
+
+
+// Splash screan Messages
+	openDB = Öffne Datenbank...
+	IniUI = Initialisieren der Benutzer Oberfläche...
+	LoadMapPack = Lade Karten Sätze...
+	LoadCaches = Lade Caches...
+
+
+// Forms
+
+	// general
+		cancel = Abbrechen
+		confirm = Wählen
+		ok = Ok
+		edit = Ändern
+		new = Neu
+		update = Aktualisierung
+		all = alle
+		km = km
+		no = Nein
+		yes = Ja
+		from = von
+		selection = Auswahl
+		max = Max.+
+		min = Min.+
+		logs = Logeinträge
+		exported = exportiert
+		for = für
+		file = Datei
+		of = von
+		notexists = existiert nicht
+		after = nach
+		Distance = Entfernung
+		category = Kategorie
+		GcCode = GC Code
+		center = Zentrum
+		remove = entferne
+		set = setze
+		saveAs+ = Speichere als+
+		Clipboard = Zwischenablage
+		copy+ = kopiere+
+		Parse = Analysieren
+		E = E
+		W = W
+		N = N
+		S = S
+		deg = Grd.
+		degmin = Grd. Min.
+		degminsec = Grd. Min. Sec.
+		UTM = UTM
+	// FormSelectDB
+		NewDB = Neue DB
+		SelDB = Wähle Datenbank
+
+	// DatabaseChangedForm
+		DatabaseChangedForm.Text = Datenbank Strukture geändert
+		DatabaseChangedForm.Msg = Glückwünsch, sie haben ihre Cachebox aktualisiert! Die Datenbankstruktur hat sich geändert und muss aktualisiert werden. Dies wird den Import beträchtlich verlangsamen, es wird empfohlen eine neue Datenbank anzulegen.
+		deleteDB = lösche DB
+		convert = Konvertieren
+
+	// FormNewDB
+		InsNewDBName = Neuen DB Namen eingeben
+
+	// FormCreatePocketQuery
+		connecting = Connecting...
+		createPQ = Create Pocket Query
+		ErrCreatePQ =  Error while trying to create a pocket query!
+		ErrLogInCreatePq = Login Error while trying to create a pocket query! Wrong login information?
+		ServerTimeout = Server Timeout...
+		NetConnectProb = Network connecting problems!
+		NoGCpassword = You didn't specify your GC password!
+
+	// FormDownloadCacheImage
+		LowMemOperationCancel = Device is running low on memory! This operation will now cancel!
+		ImportImage = Importing Images
+
+	//WaypointViewPanel
+		Projection = Projizierung
+		EnterMan = Manuell Eingeben
+		FromGps = vom GPS
+		details = Details
+		delete = Löschen
+		DecDeg = Decimal Degrees
+		DegMin = Deg, Min
+		DegMinSec = Deg, Min, Sec
+		utm = UTM
+		addWaypoint = Weg Punkt hinzufügen
+		?replaceCoord = Wollen Sie die Koordinaten wirklich ersetzen?
+		!replaceCoord = Koordinaten ersetzen
+		!DelWP = Weg Punkt Löschen
+		?DelWP = Wollen Sie wirklich diesen Weg Punkt löschen?
+
+	//SolverViewPanel
+		Solve = Berech.
+		Funct. = Funkt.
+		Select. = Ausw.
+		Keyb. = Keyb.
+		PasteClip = Einfügen
+		AsCenter = Als Zentrum setzen
+		AddWaypoint = Waypoint hinzufügen
+
+	//GetSolverFunction
+		getSolverFunction = Solver Function einfügen
+		groups = Gruppen
+		functions = Funktionen
+		otherNames = Andere Namen
+
+	//Solver
+		solverGroupText = Text
+		solverGroupNumbers = Zahlen
+		solverGroupCoordinates = Koordinaten
+		solverErrParamCount = Diese Funktion benötigt %s Parameter
+
+	//Solver Functions
+		solverFuncAlphaSum = AlphaSum
+		solverDescAlphaSum = Summe aller Positionen aller Zeichen im Alphabet
+		solverFuncAlphaPos = AlphaPos
+		solverDescAlphaPos = Position des ersten Zeichens im Alphabet
+		solverFuncPhoneCode = HandyCode
+		solverDescPhoneCode = Position des ersten Zeichens auf der Handy-Tastatur
+		solverFuncPhoneSum = HandySum
+		solverDescPhoneSum = Summe aller Positionen aller Zeichen auf der Handy-Tastatur
+		solverFuncLength = Länge
+		solverDescLength = Anzahl der Zeichen im String
+		solverFuncCrosstotal = Quersumme
+		solverDescCrosstotal = Summe aller einzelnen Ziffern der Zahl. \nBeispiel: QS(123456) = 21
+		solverFuncICrosstotal = IQuersumme
+		solverDescICrosstotal = Iterierte (einstellige) Quersumme bis das Ergebnis einstellig ist. \nBeispiel: IQS(123456) = 3
+		solverFuncCrossproduct = Querprodukt
+		solverDescCrossprocuct = Produkt aller einzelnen Ziffern der Zahl. \nBeispiel: QP(1234) = 24
+		solverFuncICrossproduct = IQuerprodukt
+		solverDescICrossproduct = Iteriertes (einstelliges) Querprodukt bis das Ergebnis einstellig ist. \nBeispiel: IQP(1234) = 8
+		solverFuncRom2Dec = Rom2Dec
+		solverDescRom2Dec = Römische Zahl in Dezimalzahl umwandeln.
+		solverFuncPrimenumber = Primzahl
+		solverDescPrimenumber = Primzahl(n) liefert die n-te Primzahl. \nBeispiel: Primzahl(5) = 11
+		solverFuncPrimeIndex = PrimIndex
+		solverDescPrimeIndex = PrimIndex(x) liefert den Index der Primzahl x. \nExample: PrimIndex(11) = 5
+		solverFuncProjection = Projektion
+		solverDescProjection = Projektion einer Koordinate. \nProjektion(koord; länge; winkel)
+		solverFuncIntersection = Schnittpunkt
+		solverDescIntersection = Schnittpunkt von 2 Linien (koord1-koord2) mit (koord3-koord4). \nSchnittpunkt(koord1; koord2; koord3; koord4)
+		solverFuncCrossbearing = Kreuzpeilung
+		solverDescCrossbearing = Kreuzpeilung zwischen 2 Punkten und 2 Richtungen \nKreuzpeilung(coord1; winkel1; coord2; winkel2)
+		solverFuncBearing = Peilung
+		solverDescBearing = Liefert den Winkel der Peilung von coord1 nach coord2 \nPeilung(coord1; coord2)
+		solverFuncDistance = Abstand
+		solverDescDistance = Liefert den Abstand zwischen den beiden Punkten (coord1 und coord2) in Meter \nAbstand(coord1; coord2)
+		solverFuncInt = Ganzzahl
+		solverDescInt = Liefert die Ganzzahl vor dem Komma \nGanzzahl(-5,7) = 5
+		solverFuncRound = Runden
+		solverDescRound = Rundet die Zahl auf x Stellen \nRunden(1,8672; 2) = 1.87
+		solverFuncPi = Pi
+		solverDescPi = Liefert die Zahl Pi \nPi() = 3,14159265358979
+		solverFuncReverse = Reverse
+		solverDescReverse = Kehrt die Zeichenkette um \nReverse("ABC") = CBA
+		solverFuncRot13 = Rot13
+		solverDescRot13 = Liefert die Rot13 Entschlüsselung \nRot13("ABC") = NOP
+		solverFuncMid = Mid
+		solverDescMid = Teilstring ausliefern. Parameter 3: Default=1 \nMid("String";StartPosition;[Zeichenzahl])
+	//CacheWolf
+		c0 = Import von CacheWolf
+		c1 = Profil (Kategorie) auswählen:+
+		c2 = Import
+        c5 = Ändern
+		c6 = _ alle Profile (Kategorien)
+		c7 = Kategorie:+
+		c8 =  (Neu)
+		c9 = Caches importieren
+		c10 = neu:+
+		c11 = geändert:+
+		c12 = fertig
+		c13 = Datenverzeichnis:+
+		c14 = Wegpunkte einlesen:+
+		c15 = Wegpunkte verknüpfen
+		c16 = Nicht aktualisierte Caches entfernen
+		c17 = Fehler:+
